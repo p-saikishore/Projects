@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Sai Kishore Pariyada | Web Developer</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Sai Kishore Pariyada</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+      <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+    </button>
+  </nav>
+
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img" />
+    <div class="homed">
+      <h1 class="homet">Hi,<br>I'am <span class="hometc">Sai Kishore</span><br> Web Developer
+      </h1>
+
+      <a href="#contact" class="button">Contact</a>
+    </div>
+  </section>
+
+  <!-- about section-->
+  <section class="about" id="about">
+    <h2 class="about-header">About Me</h2>
+
+    <div class="row">
+      <div class="left">
+        <img src="assets/images/getProfileImage.jpg" width="200" height="300" alt="">
+      </div>
+
+      <div class="right">
+        <h2>I'am Sai Kishore</h2>
+        <p class="p1c">A passionate front-end web developer with almost 2 years of experience using JavaScript, HTML5,
+          and CSS &
+          React to build all aspects of the user experience and user interface for client-facing landing pages. </p>
+        <p>
+
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div>
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div>
+        <img src="assets/icons/Python-logo-notext.svg.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/React-icon.svg.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/images/quote-generator.PNG" alt="expense-tracker" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Quote Generator</h3>
+        <p class="project-details">
+          In this project, using API I’ve build a random quote generator that displays a random quote to the user every
+          time
+          they press a button.
+        </p>
+        <a href="https://github.com/p-saikishore/Projects" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/pd1.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Poster Designing</h3>
+        <p class="project-details">
+          I've designed few posters to my friends for their independent films.
+        </p>
+        <a href="https://github.com/p-saikishore/Poster-Designing" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/sda.jpg" alt="greeny-earth" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Business Card</h3>
+        <p class="project-details">
+          Using the basics of React, I've made a personalized business card.
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xyylnggw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://twitter.com/SaiKishore1299" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
+        class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/sai-kishore-reddy-pariyada-15aa66195/" target="_blank"><img
+        src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/p-saikishore" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+  </div>
+
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2022</p>
+    <p class="copy">
+      psaikishore1999@gmail.com
+      <a href="https://twitter.com/koladechris" target="_blank">SAI KISHORE</a>
+    </p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
